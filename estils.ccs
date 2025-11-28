@@ -1,0 +1,77 @@
+/* Regla 1: Estil general del body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Regla 2: Títol principal */
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+/* Regla 3: Formulari com a caixa centrada */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #dddddd;
+}
+
+/* Regla 4: Cada camp del formulari */
+.camp {
+  margin-bottom: 15px;
+}
+
+/* Regla 5: Inputs i selects amb amplada 100% */
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+/* Regla 6: Missatges d'error en vermell */
+.error {
+  display: block;
+  color: red;
+  font-size: 0.9em;
+}
+
+/* Regla 7: Botons */
+.botons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#btn-enviar {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#btn-esborrar {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Regla 8: Resultat final */
+#resultat {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #e7ffe7;
+  border: 1px solid #4CAF50;
+  border-radius: 6px;
+}
